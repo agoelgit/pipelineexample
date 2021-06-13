@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("git-checkout"){
             steps{
-                git 'https://github.com/agoelgit/pipelineexample.git '
+                git 'https://github.com/agoelgit/pipelineexample.git'
             }
            
         }
